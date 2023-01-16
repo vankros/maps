@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T20:16:05.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="d-eUsit5KlrBd2hNNVC6" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T20:31:26.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LGM3eEMGQbfgpaZM_kGD" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="446" dy="304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1857" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -580,14 +580,62 @@
         <mxCell id="12Yw2N3nRwDhaCOB2acO-262" value="Pilares de la infraestructura de la identidad.&amp;nbsp;&lt;br&gt;(directivas para administrar identidades digitales y controlar como se usan para tener acceso a los recursos." style="whiteSpace=wrap;html=1;fontSize=7;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="1780" y="518" width="150" height="42" as="geometry" />
         </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-272" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-264" target="12Yw2N3nRwDhaCOB2acO-268">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-264" target="12Yw2N3nRwDhaCOB2acO-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-274" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-264" target="12Yw2N3nRwDhaCOB2acO-270">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-275" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-264" target="12Yw2N3nRwDhaCOB2acO-267">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-264" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;shadow=0;fontSize=7;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="449.5" width="20" height="179" as="geometry" />
+          <mxGeometry x="1935" y="449.5" width="20" height="179" as="geometry" />
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-266" value="" style="endArrow=none;html=1;rounded=0;fontSize=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-262" target="12Yw2N3nRwDhaCOB2acO-264">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2020" y="500" as="sourcePoint" />
             <mxPoint x="2070" y="450" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-277" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-267" target="12Yw2N3nRwDhaCOB2acO-276">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-267" value="Administración" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="461.5" width="47" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-279" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-268" target="12Yw2N3nRwDhaCOB2acO-278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-268" value="Autenticacion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="512" width="47" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-283" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-269" target="12Yw2N3nRwDhaCOB2acO-280">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-269" value="Autorizacion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="563" width="47" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-282" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-270" target="12Yw2N3nRwDhaCOB2acO-281">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-270" value="Auditoria" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="613.62" width="37" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-276" value="Administrar y creación de&amp;nbsp; identidades para los usuarios, dispositivos y servicios. (como administrador, puede administrar como y en que circunstancias pueden cambiar las características de identidades)" style="whiteSpace=wrap;html=1;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="450" width="199.5" height="37.25" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-278" value="los sistemas de TI deben tener una identidad para tener pruebas suficientes de que realmente son quienes dicen ser." style="whiteSpace=wrap;html=1;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="503.38" width="199.5" height="37.25" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-280" value="Determinar el nivel de acceso de una persona o servicio autenticado dentro de la aplicación o servicio al que quiere obtener acceso." style="whiteSpace=wrap;html=1;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="554.37" width="199.5" height="37.25" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-281" value="Consiste en realizar el seguimiento de quien realiza QUE, CUANDO, DONDE&amp;nbsp; y COMO.&amp;nbsp;&lt;br&gt;(incluye creación de informes alertas y GOBERNANZA)&amp;nbsp;" style="whiteSpace=wrap;html=1;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="605" width="199.5" height="37.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
