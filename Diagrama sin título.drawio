@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T20:43:40.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JwUCoA7xBJxjcNhkEkRn" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T20:51:26.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="s5WTMmIyT7StIGKbcOkX" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="446" dy="304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="371" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -663,16 +663,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-285" value="Autenticacion moderna" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=7;flipV=1;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="730.63" width="100" height="20" as="geometry" />
+          <mxGeometry x="1830" y="730.62" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-295" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-287" target="12Yw2N3nRwDhaCOB2acO-294">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-287" value="Proveedor de identidades" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=7;flipV=1;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="777.13" width="100" height="20" as="geometry" />
+          <mxGeometry x="1830" y="777.12" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-288" value="Inicio único de sesión&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=7;flipV=1;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="822.38" width="100" height="20" as="geometry" />
+          <mxGeometry x="1830" y="822.37" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="12Yw2N3nRwDhaCOB2acO-289" value="Métodos de Autenticacion&amp;nbsp; :&lt;br&gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=7;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="1958.5" y="730.63" width="110" height="20" as="geometry" />
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-289" value="Métodos de Autenticacion&amp;nbsp; y Autorización entre cliente como:&lt;br&gt;- Portátil&lt;br&gt;- Teléfono&amp;nbsp;&lt;br&gt;- Servidor&lt;br&gt;- Web&lt;br&gt;- App&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=7;rounded=0;shadow=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="690.63" width="121.5" height="69.37" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-294" value="Crea, mantiene y administra la información de identidad al tiempo que proporciona servicios de autenticación y administración&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="772" width="190" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
