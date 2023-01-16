@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T17:43:22.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="i1qtuweyAEAZ3kNn2Kux" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T18:05:06.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ol8KeXwfXWiys4qCVoV_" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="518" dy="338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="891" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -382,17 +382,41 @@
             <mxPoint x="1130" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-180" target="12Yw2N3nRwDhaCOB2acO-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-180" value="Datos en reposo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1255" y="590" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-181" target="12Yw2N3nRwDhaCOB2acO-190">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-181" value="Datos en transito" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1255" y="635" width="90" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-182" target="12Yw2N3nRwDhaCOB2acO-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-182" value="Datos en uso" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1255" y="695" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-183" target="12Yw2N3nRwDhaCOB2acO-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-183" value="Algoritmo HASH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1255" y="750" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-188" value="Datos que se almacenan en dispostivos fisicos (server) bajo una cuenta o BD, garantiza que los datos no se puedan leer&amp;nbsp; sin las claves de acceso" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="585" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-190" value="Son los que se estan moviendo de una ubicac a otra(internet o red prividad)&amp;nbsp; se puede controlar la transferencia por medio de capas" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="630" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-192" value="Cifrado para datos no persistentes (Caché o RAM)&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="695" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-199" value="Algoritmo Matematico que transforma los datos en nueva serie de caracteres.&amp;nbsp;&lt;br&gt;&lt;br&gt;Hash =/= al cifrado ya que no usa claves&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="735" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
