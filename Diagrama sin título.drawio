@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T17:12:15.972Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="kre0VkJ2mxpKi9xYHzFt" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T17:43:22.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="i1qtuweyAEAZ3kNn2Kux" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="768" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="518" dy="338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -329,6 +329,70 @@
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-167" value="Segmentación obligada, cifrado y supervisión y el análisis de extremo a extremo." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="1510" y="452" width="120" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-168" target="12Yw2N3nRwDhaCOB2acO-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-168" value="CIFRADO Y CÓDIGO HASH" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="840" y="665" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-169" target="12Yw2N3nRwDhaCOB2acO-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-169" value="El cifrado es el proceso para hacer que los datos&amp;nbsp; aparezcan ilegibles e inútiles para visores no autorizados&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="940" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-171" target="12Yw2N3nRwDhaCOB2acO-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-171" value="Simétrico:&amp;nbsp; Una misma Clave para cifrar y descifrar los datos" style="whiteSpace=wrap;html=1;fontSize=9;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-173" value="Asimétricos: usa una clave publica y una privada.&amp;nbsp;&lt;br&gt;(accesos web como HTTPS y firmas electrónicas)&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=9;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="703" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-175" target="12Yw2N3nRwDhaCOB2acO-180">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="680" />
+              <mxPoint x="1230" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-175" target="12Yw2N3nRwDhaCOB2acO-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-175" target="12Yw2N3nRwDhaCOB2acO-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=9;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-175" target="12Yw2N3nRwDhaCOB2acO-183">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1230" y="680" />
+              <mxPoint x="1230" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-175" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=9;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="590" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-179" value="" style="endArrow=none;html=1;rounded=0;fontSize=9;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="700" as="sourcePoint" />
+            <mxPoint x="1130" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-180" value="Datos en reposo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="590" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-181" value="Datos en transito" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="635" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-182" value="Datos en uso" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="695" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-183" value="Algoritmo HASH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="750" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
