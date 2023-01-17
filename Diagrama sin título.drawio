@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T16:01:37.231Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1kOHzVH1ATycoXJcPUrt" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T17:07:14.933Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="uZzKOW_q6b2zlWabl63n" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="487" dy="241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="640" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -716,11 +716,50 @@
         <mxCell id="u_FAWoC3mNVJGp82CM2F-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u_FAWoC3mNVJGp82CM2F-5" value="Azure Active directory&amp;nbsp; (En nube)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
-          <mxGeometry x="2520" y="174.32" width="100" height="46.18" as="geometry" />
+          <mxGeometry x="2505" y="187.32" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-9" target="u_FAWoC3mNVJGp82CM2F-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u_FAWoC3mNVJGp82CM2F-9" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Federación.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
-          <mxGeometry x="2615" y="315.5" width="60" height="20" as="geometry" />
+          <mxGeometry x="2575" y="272.5" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-11" target="u_FAWoC3mNVJGp82CM2F-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-11" value="Permite el acceso a los servicios a través de relaciones de confianza entre el proveedor de identidades del dominio correspondiente.&lt;br&gt;No es necesario mantener un usuario y contraseña diferentes para el acceso a los recursos." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="305.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-13" value="La relación no siempre es Bidireccional" style="ellipse;whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="318.25" width="130" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-16" target="u_FAWoC3mNVJGp82CM2F-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-16" target="u_FAWoC3mNVJGp82CM2F-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-16" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Servicios y los tipos de IDENTIDAD de AZURE AD&lt;br&gt;(servicio de administración de acceso y de identidades basado en la nube)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="411" width="165" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-18" value="Recursos internos (app&#39;s, red coorporativa, intranet, app clould propias)" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="400" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-20" value="Servicios Externos (office 365, Azure Portal, app Saas)&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="440" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-22" value="También se permite habilitar de manera segura el uso de dispositivos personales, como móviles y tabletas, y permitir la colaboración entre clientes y asociados.&lt;br&gt;&lt;br&gt;Permite MFA para acceder a recursos importantes y automatiza el aprovisionamiento de usuarios entre windows AD y App&#39;s de nube incluyendo 365." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="481.5" width="180" height="88.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
