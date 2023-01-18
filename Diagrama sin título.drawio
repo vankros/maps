@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T17:38:36.717Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SQ069_bXSmHt5bh3Bx31" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-18T22:59:43.425Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="h9fcdSqWcmi52JvAKh0B" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
     <mxGraphModel dx="795" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -925,8 +925,68 @@
         <mxCell id="YjWdnHXPSXzIKkQBoz64-73" value="Los dispositivos unidos a AZURE AD, proporciona SSO a los recursos en la nube.&amp;nbsp;&lt;br&gt;los administradores pueden utiliza INTUNE, un servicio basado en la nube que se centra en la administracion de dispositivos moviles (MDM), y Aplicaciones moviles (MAM) para controlar." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=0;align=left;" vertex="1" parent="1">
           <mxGeometry x="2735" y="1130" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YjWdnHXPSXzIKkQBoz64-79" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3320" y="20" width="100" height="33.82" as="geometry" />
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-79" target="YjWdnHXPSXzIKkQBoz64-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-79" target="YjWdnHXPSXzIKkQBoz64-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-79" value="Azure AD External Identities&amp;nbsp;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="95.25" width="100" height="33.82" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-80" target="YjWdnHXPSXzIKkQBoz64-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-80" value="&lt;b&gt;Colaboracion B2B&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;permite la colaboracion, compartir aplicaciones y servicios de la organizacion con usuarios invitados de otras organizaciones." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="32.88999999999999" width="95" height="90.93" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-82" value="Usa &quot;INVITACION Y CAJE&quot;, tambien se puede permitir a los colaboradores suscribirse a aplicaciones o recursos por si mismos." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3602" y="7.689999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-86" target="YjWdnHXPSXzIKkQBoz64-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-86" value="Administracion de acceso&amp;nbsp; de B2C&lt;br&gt;administracio nde acceso de identidades de cliente (CIAM)&amp;nbsp;&lt;br&gt;permite acceso con cuentas de REDES SOCIALES de empresa o locales preferidas.&amp;nbsp; para el SSO en aplicaciones." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3450" y="146.32" width="152" height="65.93" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-91" value="Azure AD B2C es una solucion de autenticacion que puede personalizar con su marca para que se fusione con sus aplicaciones web y moviles." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3650" y="149.005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-94" target="YjWdnHXPSXzIKkQBoz64-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-94" value="Concepto de identidad Híbrida&amp;nbsp;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3385" y="320.18" width="100" height="33.82" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-95" target="YjWdnHXPSXzIKkQBoz64-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-95" target="YjWdnHXPSXzIKkQBoz64-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-95" target="YjWdnHXPSXzIKkQBoz64-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-95" value="Esta solución crea una identidad de usuario común para&amp;nbsp; la Autenticacion&amp;nbsp; y autorización en todos los recursos, independientemente de la ubicacion&lt;br&gt;&lt;br&gt;entorno mixto - consiste en determinar un metodo de autenticacion adecuado&amp;nbsp; &amp;nbsp;ofreciendo varias maneras de autenticarse : -&amp;gt;&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="400" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;fontColor=#EEEEEE;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-100" target="YjWdnHXPSXzIKkQBoz64-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-100" value="Sincronizacion de hash de contraseña" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="280" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-102" value="Auteticacion&amp;nbsp; de paso a traves de Azure" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3520" y="450" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-103" value="Autenticacion federada" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3530" y="620" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-112" value="AD DS - almacena contraseña en forma de representación de valor de HASH de la contraseña de usuario REAL, con la sincronizacion de HAS de contraseña de AZURE AD." style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3740" y="259.59" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-114" value="permite a los usuarios iniciar sesion en aplicaciones locales, las constraseñas se validan directamente en la instancia local de AD&amp;nbsp;&lt;br&gt;&lt;br&gt;tambien usara AZURE AD CONNECT&amp;nbsp;&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3700" y="431" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
