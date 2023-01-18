@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T17:07:14.933Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="uZzKOW_q6b2zlWabl63n" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-18T14:47:04.273Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ayKRPEm1x9nutMefKmdQ" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="640" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="556" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -668,7 +668,7 @@
         <mxCell id="12Yw2N3nRwDhaCOB2acO-295" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=7;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="12Yw2N3nRwDhaCOB2acO-287" target="12Yw2N3nRwDhaCOB2acO-294" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="12Yw2N3nRwDhaCOB2acO-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;" parent="1" source="12Yw2N3nRwDhaCOB2acO-287" target="12Yw2N3nRwDhaCOB2acO-303" edge="1">
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-304" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;labelBackgroundColor=none;fontColor=default;" parent="1" source="12Yw2N3nRwDhaCOB2acO-287" target="12Yw2N3nRwDhaCOB2acO-303" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-287" value="Proveedor de identidades" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=7;flipV=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
@@ -689,77 +689,185 @@
         <mxCell id="12Yw2N3nRwDhaCOB2acO-296" value="&amp;nbsp;SSO - inicia una vez y esa credencial se usa&amp;nbsp; para tener acceso a a varias aplicaciones o recursos&amp;nbsp;&lt;br&gt;a la configuración del SSO se le conoce como FEDERACIÓN&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=7;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;" parent="1" vertex="1">
           <mxGeometry x="1975" y="966.05" width="240" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="12Yw2N3nRwDhaCOB2acO-303" value="&lt;div style=&quot;text-align: justify; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px; background-color: initial;&quot;&gt;¿Como funciona?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 7px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Cliente - comunica al servidor&amp;nbsp; (usuario y password / token) el servidor valida el Token a través&amp;nbsp;de la comunicación&amp;nbsp;de relación&amp;nbsp;de confianza.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 7px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Token- documento Criptograficamente firmado&amp;nbsp;&lt;br&gt;Claims - persona que usa el cliente token&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 7px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Audiencia es otro Claims&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;fontSize=7;" parent="1" vertex="1">
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-303" value="&lt;div style=&quot;text-align: justify; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px; background-color: initial;&quot;&gt;¿Como funciona?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 7px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Cliente - comunica al servidor&amp;nbsp; (usuario y password / token) el servidor valida el Token a través&amp;nbsp;de la comunicación&amp;nbsp;de relación&amp;nbsp;de confianza.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 7px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Token- documento Criptograficamente firmado&amp;nbsp;&lt;br&gt;Claims - persona que usa el cliente token&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; font-size: 7px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 7px;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;Audiencia es otro Claims&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontColor=#EEEEEE;fillColor=#09555B;fontSize=7;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1985" y="888.05" width="240" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-305" target="12Yw2N3nRwDhaCOB2acO-309">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="12Yw2N3nRwDhaCOB2acO-305" target="12Yw2N3nRwDhaCOB2acO-309" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-305" target="12Yw2N3nRwDhaCOB2acO-310">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="12Yw2N3nRwDhaCOB2acO-305" target="12Yw2N3nRwDhaCOB2acO-310" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="12Yw2N3nRwDhaCOB2acO-305" target="u_FAWoC3mNVJGp82CM2F-5">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="12Yw2N3nRwDhaCOB2acO-305" target="u_FAWoC3mNVJGp82CM2F-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="12Yw2N3nRwDhaCOB2acO-305" value="Concepto de Servicios de Directorio y Active Directory" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" parent="1" vertex="1">
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-305" value="Concepto de Servicios de Directorio y Active Directory" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2500" y="63.82" width="100" height="46.18" as="geometry" />
         </mxCell>
-        <mxCell id="12Yw2N3nRwDhaCOB2acO-309" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Un servicio de directorio almacena los datos del directorio y los pone a dosposición de los usuarios de red, lo administradores, los servicios y las aplicaciones.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" parent="1" vertex="1">
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-309" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Un servicio de directorio almacena los datos del directorio y los pone a dosposición de los usuarios de red, lo administradores, los servicios y las aplicaciones.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2660" y="7.6899999999999995" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="12Yw2N3nRwDhaCOB2acO-310" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AD, es un conjunto de servicios de directorio desarrollados por MS para redes locales basadas en dominio.&amp;nbsp;&lt;br&gt;el mas conocido es AD domain services (AD DS)&amp;nbsp;&lt;br&gt;server con AD DS = Controlador de dominio&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" parent="1" vertex="1">
+        <mxCell id="12Yw2N3nRwDhaCOB2acO-310" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;AD, es un conjunto de servicios de directorio desarrollados por MS para redes locales basadas en dominio.&amp;nbsp;&lt;br&gt;el mas conocido es AD domain services (AD DS)&amp;nbsp;&lt;br&gt;server con AD DS = Controlador de dominio&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2670" y="100.13999999999999" width="190" height="66.18" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-4" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Es la siguiente evolucion de las soluciones de administracion de identidad y acceso. Proporciona a las organizaciones una solucion de IDENTIDAD y ACCESO, proporciona a las organizaciones una solucion de IDENTIDAD COMO SERVICIO (Idaas) para todas sus aplicaciones.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
-          <mxGeometry x="2670" y="190.32" width="190" height="66.18" as="geometry" />
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-4" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Es la siguiente evolucion de las soluciones de administracion de identidad y acceso. Proporciona a las organizaciones una solucion de IDENTIDAD y ACCESO, proporciona a las organizaciones una solucion de IDENTIDAD COMO SERVICIO (Idaas) para todas sus aplicaciones.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2660" y="256.5" width="190" height="66.18" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-4">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-9">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-9">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-16">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="u_FAWoC3mNVJGp82CM2F-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-5" value="Azure Active directory&amp;nbsp; (En nube)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-5" target="YjWdnHXPSXzIKkQBoz64-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-5" value="Azure Active directory&amp;nbsp; (En nube)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2505" y="187.32" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-9" target="u_FAWoC3mNVJGp82CM2F-11">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="u_FAWoC3mNVJGp82CM2F-9" target="u_FAWoC3mNVJGp82CM2F-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-9" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Federación.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
-          <mxGeometry x="2575" y="272.5" width="60" height="20" as="geometry" />
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-9" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Federación.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="3035" y="219" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-11" target="u_FAWoC3mNVJGp82CM2F-13">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="u_FAWoC3mNVJGp82CM2F-11" target="u_FAWoC3mNVJGp82CM2F-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-11" value="Permite el acceso a los servicios a través de relaciones de confianza entre el proveedor de identidades del dominio correspondiente.&lt;br&gt;No es necesario mantener un usuario y contraseña diferentes para el acceso a los recursos." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2650" y="305.5" width="120" height="60" as="geometry" />
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-11" value="Permite el acceso a los servicios a través de relaciones de confianza entre el proveedor de identidades del dominio correspondiente.&lt;br&gt;No es necesario mantener un usuario y contraseña diferentes para el acceso a los recursos." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2975" y="283" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-13" value="La relación no siempre es Bidireccional" style="ellipse;whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2800" y="318.25" width="130" height="34.5" as="geometry" />
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-13" value="La relación no siempre es Bidireccional" style="ellipse;whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="3125" y="295.75" width="130" height="34.5" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-16" target="u_FAWoC3mNVJGp82CM2F-18">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="u_FAWoC3mNVJGp82CM2F-16" target="u_FAWoC3mNVJGp82CM2F-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-16" target="u_FAWoC3mNVJGp82CM2F-20">
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" parent="1" source="u_FAWoC3mNVJGp82CM2F-16" target="u_FAWoC3mNVJGp82CM2F-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-16" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Servicios y los tipos de IDENTIDAD de AZURE AD&lt;br&gt;(servicio de administración de acceso y de identidades basado en la nube)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
-          <mxGeometry x="2495" y="411" width="165" height="49" as="geometry" />
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" parent="1" source="u_FAWoC3mNVJGp82CM2F-16" target="u_FAWoC3mNVJGp82CM2F-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-18" value="Recursos internos (app&#39;s, red coorporativa, intranet, app clould propias)" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2700" y="400" width="250" height="20" as="geometry" />
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-16" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Servicios y los tipos de IDENTIDAD de AZURE AD&lt;br&gt;(servicio de administración de acceso y de identidades basado en la nube)&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2820" y="388.5" width="165" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-20" value="Servicios Externos (office 365, Azure Portal, app Saas)&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2700" y="440" width="190" height="20" as="geometry" />
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-18" value="Recursos internos (app&#39;s, red coorporativa, intranet, app clould propias)" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="3025" y="377.5" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="u_FAWoC3mNVJGp82CM2F-22" value="También se permite habilitar de manera segura el uso de dispositivos personales, como móviles y tabletas, y permitir la colaboración entre clientes y asociados.&lt;br&gt;&lt;br&gt;Permite MFA para acceder a recursos importantes y automatiza el aprovisionamiento de usuarios entre windows AD y App&#39;s de nube incluyendo 365." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2700" y="481.5" width="180" height="88.5" as="geometry" />
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-20" value="Servicios Externos (office 365, Azure Portal, app Saas)&lt;br&gt;" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="3025" y="417.5" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u_FAWoC3mNVJGp82CM2F-22" value="También se permite habilitar de manera segura el uso de dispositivos personales, como móviles y tabletas, y permitir la colaboración entre clientes y asociados.&lt;br&gt;&lt;br&gt;Permite MFA para acceder a recursos importantes y automatiza el aprovisionamiento de usuarios entre windows AD y App&#39;s de nube incluyendo 365." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="3025" y="469.5" width="250" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#0B4D6A;fontColor=default;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-4" target="YjWdnHXPSXzIKkQBoz64-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-4" value="Ediciones de AZURE AD" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;arcSize=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="342" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-7" target="YjWdnHXPSXzIKkQBoz64-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2690" y="540" />
+              <mxPoint x="2690" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-7" value="&lt;b&gt;App de office 365&amp;nbsp;&lt;/b&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;free + SSPR en Cloud&amp;nbsp; + incluye subcripcion de office 365 E1E3 E5" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="487" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-8" target="YjWdnHXPSXzIKkQBoz64-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2705" y="487" />
+              <mxPoint x="2705" y="487" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-8" value="&lt;b style=&quot;font-size: 8px;&quot;&gt;Azure AD - Free&lt;/b&gt;&lt;br style=&quot;font-size: 8px;&quot;&gt;Administracion creacion de usuarios sincronizacion con la instancia local de AD, crear informes,SSPR local, SSO y MS 365" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="388.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-11" target="YjWdnHXPSXzIKkQBoz64-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2690" y="650" />
+              <mxPoint x="2690" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-11" value="&lt;b&gt;Azure Active Directory Premiun P1&amp;nbsp;&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/b&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;Free + App&amp;nbsp;&lt;br style=&quot;font-size: 7px;&quot;&gt;administracion avanzada, grupos dinamicos, administracion de grupos de autorservicio, reescritura en la nube." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;verticalAlign=middle;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="2595" y="554.37" width="190" height="66.38" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-14" value="&lt;b&gt;Azure Active Directory Premiun P2&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;/b&gt;Free+ Apps + p1 +&amp;nbsp;&lt;br style=&quot;font-size: 7px;&quot;&gt;&lt;br style=&quot;font-size: 7px;&quot;&gt;Azure Active Directory Identity proteccion&lt;br style=&quot;font-size: 7px;&quot;&gt;proporciona PIM que le ayuda a detectar, restringir y supervisar a los administradores y tambien (just-in-time) cuando sea necesario." style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="645" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-16" value="Tipos de Identidad Azure AD" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="848.17" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-19" target="YjWdnHXPSXzIKkQBoz64-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-19" target="YjWdnHXPSXzIKkQBoz64-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-19" target="YjWdnHXPSXzIKkQBoz64-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-19" target="YjWdnHXPSXzIKkQBoz64-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;strokeColor=#09555B;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;size=0;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="744" width="10" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-21" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#0B4D6A;fontSize=7;exitX=0.994;exitY=0.55;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.509;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-16" target="YjWdnHXPSXzIKkQBoz64-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2610" y="960" as="sourcePoint" />
+            <mxPoint x="2660" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-22" target="YjWdnHXPSXzIKkQBoz64-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-22" value="usuario" style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="745" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-24" target="YjWdnHXPSXzIKkQBoz64-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-24" value="Entidad de Servicio" style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="814" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-25" target="YjWdnHXPSXzIKkQBoz64-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-25" value="Tenant" style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="883" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-26" target="YjWdnHXPSXzIKkQBoz64-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-26" value="Identidad administrada" style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="952.05" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-41" value="Instancia que se crea automáticamente cuando una organización se suscriben a un servicio de Azure AD, este TENANT representa a la organizacion y es independiente de otros, son identificados con un SUBDOMINIO, guarda la informacion de los usuarios, de la empresa: Cuentas, claves y otros." style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2763.75" y="865" width="196.25" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-42" value="entidad para app, primero se registra a fin de habilitar su integracion, una vez que se registra, se crea una entidad de servicio en cada inquilino (&lt;b&gt;Tenant) de azure AD&lt;/b&gt;&lt;br&gt;&lt;br&gt;-se habilita caracteristicas basicas como la autenticacion y autorizacion en app en los recusos proteg. por inquilino en&amp;nbsp;&lt;b&gt;Azure AD&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2763.75" y="796.05" width="192.5" height="61.95" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-44" value="Algo que se administra en Azure AD, empleados o invitados se representan como usuarios en AZURE AD&amp;nbsp;&lt;br&gt;La colaboración de negocio a negocio (b2b) es una caracteristica de&amp;nbsp;&amp;nbsp;&lt;b&gt;external identities&lt;/b&gt;&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2763.75" y="740" width="195" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-48" value="son un tipo de identidad que se administra de forma automatica en azure AD, elimina la necesidad de los Desarrolladores&amp;nbsp; administren credenciales." style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2760" y="944" width="132" height="44" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
