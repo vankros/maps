@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T16:18:28.586Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MtDzdHPeN63SDOkT6Y_I" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-18T17:38:36.717Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="SQ069_bXSmHt5bh3Bx31" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="1159" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -702,7 +702,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-305" value="Concepto de Servicios de Directorio y Active Directory" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2500" y="63.82" width="100" height="46.18" as="geometry" />
+          <mxGeometry x="2500" y="70" width="100" height="33.82" as="geometry" />
         </mxCell>
         <mxCell id="12Yw2N3nRwDhaCOB2acO-309" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Un servicio de directorio almacena los datos del directorio y los pone a dosposición de los usuarios de red, lo administradores, los servicios y las aplicaciones.&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="2660" y="7.6899999999999995" width="170" height="60" as="geometry" />
@@ -879,10 +879,54 @@
           <mxGeometry x="2699" y="948.05" width="132" height="44" as="geometry" />
         </mxCell>
         <mxCell id="YjWdnHXPSXzIKkQBoz64-50" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Asignada por el sistema&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se crea en una identidad administrada por el sistema, se crea y esta vinculada al ciclo de vida del servicio,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cuando un recurso se elimina se elimina la identidad.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2870" y="942.05" width="185" height="50" as="geometry" />
+          <mxGeometry x="3090" y="903.0699999999999" width="185" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YjWdnHXPSXzIKkQBoz64-54" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Asignada por el usuario&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Administrada por el recurso del independiente, puede ser asignado a uno o varias instancias de servicio de AZURE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;si se elimina el recurso no se elimina el usuario.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2875" y="1013" width="175" height="47" as="geometry" />
+          <mxGeometry x="3095" y="974.02" width="175" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-59" target="YjWdnHXPSXzIKkQBoz64-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-59" target="YjWdnHXPSXzIKkQBoz64-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.514;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-59" target="YjWdnHXPSXzIKkQBoz64-63">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2660" y="1047" />
+              <mxPoint x="2660" y="1104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-59" value="Dispositivos (Un producto Hardware)&amp;nbsp; es una &lt;b&gt;Identidad de Dispositivos&lt;/b&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#09555B;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;" vertex="1" parent="1">
+          <mxGeometry x="2512.5" y="1029" width="115" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-60" target="YjWdnHXPSXzIKkQBoz64-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-60" value="Dispositivos Registrados en Azure AD" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="1018" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-62" value="Unido a Azure AD" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="1055.5" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-63" value="Dispositivos unidos a Azure AD hibrido" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2690" y="1093.5" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-69" value="los disps. se registran sin necesidad de que una cuenta de la org, inicie sesion" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="1018" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-71" value="Se une mediante cuenta de organización, que luego se inicia para&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="1060" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-72" value="con implementaciones locales de AD, se exige que ingresen con la cuenta de administración" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2860" y="1100" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-73" value="Los dispositivos unidos a AZURE AD, proporciona SSO a los recursos en la nube.&amp;nbsp;&lt;br&gt;los administradores pueden utiliza INTUNE, un servicio basado en la nube que se centra en la administracion de dispositivos moviles (MDM), y Aplicaciones moviles (MAM) para controlar." style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2735" y="1130" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-79" value="" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;strokeColor=#BAC8D3;fontSize=7;fontColor=#EEEEEE;fillColor=#09555B;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="20" width="100" height="33.82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
