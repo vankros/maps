@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-18T14:47:04.273Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ayKRPEm1x9nutMefKmdQ" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-18T16:18:28.586Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="MtDzdHPeN63SDOkT6Y_I" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="556" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1159" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -866,8 +866,23 @@
         <mxCell id="YjWdnHXPSXzIKkQBoz64-44" value="Algo que se administra en Azure AD, empleados o invitados se representan como usuarios en AZURE AD&amp;nbsp;&lt;br&gt;La colaboración de negocio a negocio (b2b) es una caracteristica de&amp;nbsp;&amp;nbsp;&lt;b&gt;external identities&lt;/b&gt;&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2763.75" y="740" width="195" height="44" as="geometry" />
         </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-48" target="YjWdnHXPSXzIKkQBoz64-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-48" target="YjWdnHXPSXzIKkQBoz64-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="YjWdnHXPSXzIKkQBoz64-48" target="YjWdnHXPSXzIKkQBoz64-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YjWdnHXPSXzIKkQBoz64-48" value="son un tipo de identidad que se administra de forma automatica en azure AD, elimina la necesidad de los Desarrolladores&amp;nbsp; administren credenciales." style="whiteSpace=wrap;html=1;fontSize=7;align=center;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="2760" y="944" width="132" height="44" as="geometry" />
+          <mxGeometry x="2699" y="948.05" width="132" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-50" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Asignada por el sistema&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Se crea en una identidad administrada por el sistema, se crea y esta vinculada al ciclo de vida del servicio,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cuando un recurso se elimina se elimina la identidad.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="942.05" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YjWdnHXPSXzIKkQBoz64-54" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Asignada por el usuario&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Administrada por el recurso del independiente, puede ser asignado a uno o varias instancias de servicio de AZURE&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;si se elimina el recurso no se elimina el usuario.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=7;fillColor=#09555B;strokeColor=#09555B;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2875" y="1013" width="175" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
