@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T16:57:26.880Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="VMDPEr2DhW7GjmIulD_Z" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-19T17:30:15.281Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="tnGHLPgK3VumdwP7258g" version="20.8.5" type="github">
   <diagram id="ZaX_0zwrfO3b5VVgpXq1" name="Página-1">
-    <mxGraphModel dx="773" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2140" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1027,17 +1027,91 @@
             <mxPoint x="3580" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JD-Belm9PFDr_YvT0tWS-12" value="Contraseñas" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3627" y="600" width="90" height="30" as="geometry" />
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-12" target="JD-Belm9PFDr_YvT0tWS-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JD-Belm9PFDr_YvT0tWS-14" value="telefono" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3627" y="690" width="70" height="30" as="geometry" />
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-12" value="Contraseñas" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="3627" y="605" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="JD-Belm9PFDr_YvT0tWS-15" value="OTHA" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3627" y="776" width="60" height="30" as="geometry" />
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-14" target="JD-Belm9PFDr_YvT0tWS-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JD-Belm9PFDr_YvT0tWS-16" value="Autenticacion sin contraseña" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="3627" y="853.0699999999999" width="180" height="30" as="geometry" />
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-14" value="Telefono" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="3627" y="695" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-15" target="JD-Belm9PFDr_YvT0tWS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-15" value="OATH (open Authentication" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="3627" y="781" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-16" target="JD-Belm9PFDr_YvT0tWS-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3682" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-16" target="JD-Belm9PFDr_YvT0tWS-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-16" target="JD-Belm9PFDr_YvT0tWS-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-16" value="Autenticacion sin contraseña" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="3627" y="858.0699999999999" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-21" value="las contraseñas seguras son dificiles de atacar, son dificiles de recordar , el uso de esta debe complementarse o reemplezarse por metodos de autenticacion mas seguros." style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="3760" y="605" width="170" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-23" value="Sms&amp;nbsp;&amp;nbsp;&lt;br style=&quot;font-size: 7px;&quot;&gt;voz - &lt;br&gt;Ambos como segundo meto de autenticacion&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="3785" y="683" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-26" target="JD-Belm9PFDr_YvT0tWS-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4000" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-26" target="JD-Belm9PFDr_YvT0tWS-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-26" value="codigos de contraseñas de un solo uso y duracion definida (TOTP&amp;nbsp;" style="whiteSpace=wrap;html=1;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="3780" y="768.3" width="120" height="23.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-33" value="Tokens de Software, suelen ser app- azure AD genera la clave o valor secreto&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3940" y="726.55" width="120" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-34" value="Tokens de&amp;nbsp; Hardware&amp;nbsp; suelen incluir una clave secrreta o valor de inicializacion, programada previamente en el token&amp;nbsp;" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3945" y="801" width="110" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-37" target="JD-Belm9PFDr_YvT0tWS-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-37" value="Windows Hello para empresas" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3722" y="912.9999999999999" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-39" target="JD-Belm9PFDr_YvT0tWS-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-39" value="FIDO2&amp;nbsp;&lt;br&gt;Fast identity online (la ultima version incorpora el estandar de autenticacion web (WebAuthn)" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3720" y="963" width="90" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-45" value="autenticacion en 2 fases es una combinacion de una clave o un cerificado vinculado a un &lt;b&gt;dispositivo&lt;/b&gt; y algo que la persona conoce (Pin) o algo que la persona es (biometria)" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3880" y="893.5" width="148" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-47" value="Suelen ser dispositivos USB, bluethoo o NFC,&amp;nbsp; con un dispositivo hardware que controla la autenticacion no hay necesidad de contraseña que pueda advinarse o atacar" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3848" y="970" width="180" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0B4D6A;fontSize=7;" edge="1" parent="1" source="JD-Belm9PFDr_YvT0tWS-51" target="JD-Belm9PFDr_YvT0tWS-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-51" value="Aplicacion Microsoft Authenticator" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3705" y="1055.5" width="115" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JD-Belm9PFDr_YvT0tWS-53" value="la app convierte cualquier telefono en una credencial segura sin contraseña,&amp;nbsp; para inciciar sesion en AZURE AD, un usuario escribe su nombre, coincide con un numero mostrado en la pantalla y&amp;nbsp; a continuacion su biometria&amp;nbsp; o PIN para confirmar" style="whiteSpace=wrap;html=1;fontSize=7;align=left;fillColor=#09555B;strokeColor=#BAC8D3;fontColor=#EEEEEE;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="3848" y="1038" width="178" height="56.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
